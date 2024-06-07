@@ -48,12 +48,14 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/Digitalizacion_SAP_MES/"  
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "baseHref": "/Digitalizacion_SAP_MES/"
             }
           },
           "defaultConfiguration": "production"
