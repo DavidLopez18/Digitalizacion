@@ -42,5 +42,9 @@ testem.log
 Thumbs.db
 
 # Ignorar archivos dentro de la carpeta assets
+<<<<<<< HEAD
 /src/assets/
+=======
+src/assets/Videos/
+>>>>>>> ca576214bcb5a364ddc635cc09ed76705154ad09
 
