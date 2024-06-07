@@ -1,1 +1,163 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 50px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; 
+}
+
+.header-titulo-h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.header-img img {
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header-img img:hover {
+    transform: scale(1.2);
+}
+
+
+main {
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main h1, main h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main > div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+main > div > div {
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px; 
+    width: 220px;
+    text-align: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+main > div > div:last-child {
+    margin-right: 0;
+}
+main > div > div:hover {
+    transform: translateY(-20px);
+}
+
+main > div > div img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+main > div > div h1 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+main > div > div a {
+    display: block;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.20s ease-in-out;
+    
+}
+
+main > div > div a:hover {
+    background-color: #f4a30ce7;
+    color: #000000;    
+}
+
+
+footer {
+    text-align: left;
+    padding: 20px 50px;
+    margin-top: auto; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer div {
+    display: grid;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer-p{
+    justify-content: left;
+}
+.footer-img{
+    justify-content: right;
+}
+
+@media (max-width: 768px) {
+header {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header .header-img img {
+    height: 40px;
+}
+
+main {
+    padding: 10px 20px;
+}
+
+main > div {
+    flex-direction: column;
+    align-items: center;
+}
+
+main > div > div {
+    width: calc(100% - 40px); 
+    margin: 20px 0;
+}
+
+footer {
+    padding: 10px 20px;
+}
+
+footer div {
+    flex-direction: column;
+}
+
+footer div img {
+    margin: 10px 0 0 0;
+}
+}

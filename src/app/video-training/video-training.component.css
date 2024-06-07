@@ -1,0 +1,31 @@
+.titulo{
+    text-align: center;
+    color: #333;
+    width: 100%;
+    width: 100%;
+    border-bottom: 10px solid black
+}
+.video-container {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    margin-left: 10%;
+    max-width:100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Caja-video{
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin: 20px;
+}
+    
+video{
+    border: 0.002px solid rgba(121, 121, 121, 0.425);
+    border-radius: 10px;
+}
