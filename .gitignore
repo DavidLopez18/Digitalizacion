@@ -43,4 +43,4 @@ Thumbs.db
 
 # Ignorar archivos dentro de la carpeta assets
 /src/assets/Videos/
-
+/src/assets/SapFiles/
