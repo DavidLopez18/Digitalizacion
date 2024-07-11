@@ -4,6 +4,7 @@ import { ManualesComponent } from './manuales/manuales.component';
 import { RpasComponent } from './rpas/rpas.component';
 import { TemplatesSapComponent } from './templates-sap/templates-sap.component';
 import { VideoTrainingComponent } from './video-training/video-training.component';
+import { PulseComponent } from './pulse/pulse.component';
 
 export const routes: Routes = [
     {path:'lecciones-aprendidas',component: LeccionesAprendidasComponent},
@@ -11,4 +12,5 @@ export const routes: Routes = [
     {path:'rpas',component: RpasComponent},
     {path:'templates-sap',component: TemplatesSapComponent},
     {path:'video-training',component: VideoTrainingComponent},
+    {path:'pulse',component: PulseComponent},
 ];
