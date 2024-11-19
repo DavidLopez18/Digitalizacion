@@ -3,3 +3,7 @@ h2{
     margin: 0;
     font-size: 36px;   
 }
+
+body {
+    background-image: url('/Digitalizacion_SAP_MES/assets/images/white stone.jpg');
+}

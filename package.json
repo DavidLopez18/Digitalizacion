@@ -6,8 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:Digitalizacion": "node dist/digitalizacion/server/server.mjs"
+    "test": "ng test",    
+    "serve:ssr:Digitalizacion": "node dist/digitalizacion/server/server.mjs",
+    "deploy": "firebase deploy"
   },
   "private": true,
   "dependencies": {
